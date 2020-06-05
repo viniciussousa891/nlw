@@ -79,7 +79,7 @@ function handleSelectedItem(event) {
 
     const alreadySelected = selectedItems.findIndex( item => {
         const itemFound = item == itemId // isso será true ou false
-        return itemFound
+        return itemFound 
     })
 
 
